@@ -1,15 +1,14 @@
 fun main() {
-    var a:Int=5
-    var b:Int=10
-    var c:Int=0
+
     var resultado:Int=0
     var pf:Int=0
-    
+    //inicio do iterador de cada tabuada
     for(x in 1..10){
       pf=x
+	//inicio da tabuada
         for(i in 1..10){
         resultado=pf*i
         println("$pf x $i = $resultado")
     	}
-	}
+    }//fim da tabuada
 }
